@@ -1,0 +1,86 @@
+ 1922  cd
+ 1923  ls
+ 1924  git clone git@github.com:wunderszindi/sitebuilding-project.git
+ 1925  cd sitebuilding-project/
+ 1926  code .
+ 1927  git checkout -b develop
+ 1928  git add index.html 
+ 1929  git commit -m "add index.html"
+ 1930  git add main.css
+ 1931  git commit -m "add main.css"
+ 1932  git add index.html main.css 
+ 1933  git commit -m "add h1"
+ 1934  git push
+ 1935  git    git push --set-upstream origin develop
+ 1936  ls
+ 1937  git clone git@github.com:wunderszindi/exam.git
+ 1938  ls
+ 1939  cd exam/
+ 1940  git checkout -b develop
+ 1941  git checkout -b Szandra/1
+ 1942  touch 1.feladat.js
+ 1943  git add .
+ 1944  git commit -m "add 1.feladat.js"
+ 1945  git push
+ 1946  git push --set-upstream origin Szandra/1 
+ 1947  git checkout -b Szandra/2
+ 1948  touch 3.feladat 4.feladat
+ 1949  touch 5.feladat 6.feladat
+ 1950  git add .
+ 1951  git commit -m "fajlok letrehozasa"
+ 1952  git push
+ 1953  git     git push --set-upstream origin Szandra/2
+ 1954  init
+ 1955  alexandra@alexandra-ThinkPad-X260:~/exam$ 
+ 1956  init
+ 1957  alexandra@alexandra-ThinkPad-X260:~/exam$ 
+ 1958  git push --set-upstream origin Szandra/2
+ 1959  git checkout Szandra/1
+ 1960  touch 2.feladat.js
+ 1961  git add 2.feladat.js 
+ 1962  git commit -m "add 2.feladat.js"
+ 1963  git push
+ 1964  git checkout -b Szandra/3
+ 1965  touch 7.feladat.js 8.feladat.js 9.feladat.js
+ 1966  git add 7.feladat.js 8.feladat.js 9.feladat.js 
+ 1967  git commit -m "add files"
+ 1968  git push
+ 1969  git push --set-upstream origin Szandra/3
+ 1970  git checkout develop
+ 1971  git push --set-upstream origin develop 
+ 1972  echo /node_modules > .gitignore
+ 1973  cat .gitignore
+ 1974  echo *.env >> .gitignore
+ 1975  cat .gitignore
+ 1976  history --help
+ 1977  history -w history.log
+ 1978  cat history.log 
+ 1979  rm history.log 
+ 1980  ls 
+ 1981  ls -la
+ 1982  history --help
+ 1983  history -w 100 history.log
+ 1984  cat history.log
+ 1985  git diff
+ 1986  history 100
+ 1987  history 1986 2050
+ 1988  history 1986
+ 1989  history --help
+ 1990  history *1986
+ 1991  history 67 -w history.log
+ 1992  history 67 -w
+ 1993  history -w 67
+ 1994  ls
+ 1995  cat 67
+ 1996  cp 100 history.log
+ 1997  cat history.log 
+ 1998  cat 67
+ 1999  nano history.log 
+ 2000  cd exam/
+ 2001  git status
+ 2002  rm 100
+ 2003  rm 67
+ 2004  rm history.log
+ 2005  rm history.log.save 
+ 2006  history 100
+ 2007  echo | history 100 >> history.log
